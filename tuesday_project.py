@@ -11,7 +11,7 @@ st.set_page_config(
  
 #lendo o arquivo csv
 
-df = pd.read_excel('TuesdayStatus.xlsx')
+df = pd.read_excel('TuesdayStatus1.xlsx')
 
 
 # Barra lateral no Streamlit
