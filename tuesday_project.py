@@ -29,6 +29,7 @@ st.sidebar.image( image)
 
 tab1, = st.tabs(['Visão geral'])
 
-with tab1: 
+with tab1:
+    with st.container():
         st.title(' RCAs mapeados' )
         st.dataframe(df)
