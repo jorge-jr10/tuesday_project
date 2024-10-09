@@ -3,8 +3,8 @@ import pandas as pd
 from PIL import Image
 
 st.set_page_config(
-    page_title="Meu Aplicativo Streamlit",
-    page_icon=":rocket:",  
+    page_title="Controle de RCA's",
+    page_icon=":Relatórios:",  
     layout="wide",
     initial_sidebar_state="expanded")
 
