@@ -5,7 +5,8 @@ from PIL import Image
 st.set_page_config(
     page_title="Meu Aplicativo Streamlit",
     page_icon=":rocket:",  
-    layout="wide")
+    layout="wide",
+    initial_sidebar_state="expanded")
 
  
 #lendo o arquivo csv
