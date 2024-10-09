@@ -1,0 +1,5 @@
+streamlit
+pandas
+fsspec
+openpyxl  # Para arquivos .xlsx
+xlrd     # Para arquivos .xls, se necessário
