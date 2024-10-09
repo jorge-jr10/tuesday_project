@@ -4,7 +4,7 @@ from PIL import Image
 
 st.set_page_config(
     page_title="Controle de RCA's",
-    page_icon=":Relatórios:",  
+    page_icon="📈",  
     layout="wide",
     initial_sidebar_state="expanded")
 
