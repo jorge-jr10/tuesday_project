@@ -3,4 +3,4 @@ pandas
 fsspec
 openpyxl  # Para arquivos .xlsx
 xlrd     # Para arquivos .xls, se necessário
-PIL
+Pillow   # Para manipulação de imagens
