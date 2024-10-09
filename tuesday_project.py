@@ -25,11 +25,11 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("## Powered by Governance - TORRA")
 
 image = Image.open('torra-1024.png')
-st.sidebar.image( image)
+st.sidebar.image( image )
 
 tab1, = st.tabs(['Visão geral'])
 
 with tab1:
     with st.container():
-        st.title(' RCAs mapeados' )
+        st.title("RCA's mapeados" )
         st.table(df)
