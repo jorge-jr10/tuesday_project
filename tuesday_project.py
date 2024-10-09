@@ -16,7 +16,7 @@ df = pd.read_excel('TuesdayStatus1.xlsx')
 
 # Barra lateral no Streamlit
 
-st.header('V1 | Painel de Controle - RCAs')
+st.header("V1 | Painel de Controle - RCA's")
 
 st.sidebar.markdown('# Bem vindo(a)!')
 st.sidebar.markdown("---")
