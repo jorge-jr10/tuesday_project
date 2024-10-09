@@ -34,4 +34,6 @@ with tab1:
         st.title(' RCAs mapeados' )
 
 
-        st.dataframe(df, use_container_width=True)
+        st.dataframe(df, 
+                     use_container_width=True,
+                     height=500)
