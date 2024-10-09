@@ -3,6 +3,21 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
+#definindo senha de acesso
+password = '161212'
+
+input_password = st.text_input("Digite a palavra-chave:", type="password")
+
+# Verificar se a palavra-chave está correta
+if input_password == password:
+    st.success("Acesso concedido!")
+    
+    # O resto do app vai aqui
+    st.write("Bem-vindo ao aplicativo!")
+    
+else:
+    st.error("Palavra-chave incorreta. Tente novamente.")
+    
 #definindo configurações de layout da pagina 
 st.set_page_config(
     page_title="Controle de RCA's",
