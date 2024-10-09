@@ -23,7 +23,7 @@ st.sidebar.markdown('## Painel estruturado com linguagem Python')
 st.sidebar.markdown("---")
 st.sidebar.markdown("## Powered by Governance - TORRA")
 
-image = Image.open('C://Repos//Tuesday Status//torra-1024.png')
+image = Image.open('tuesday_project/torra-1024.png')
 st.sidebar.image( image)
 
 tab1, = st.tabs(['Visão geral'])
