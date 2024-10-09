@@ -10,7 +10,7 @@ st.set_page_config(
  
 #lendo o arquivo csv
 
-df = pd.read_excel('tuesday_project/TuesdayStatus.xlsx')
+df = pd.read_excel('TuesdayStatus.xlsx')
 
 
 # Barra lateral no Streamlit
@@ -23,7 +23,7 @@ st.sidebar.markdown('## Painel estruturado com linguagem Python')
 st.sidebar.markdown("---")
 st.sidebar.markdown("## Powered by Governance - TORRA")
 
-image = Image.open('tuesday_project/torra-1024.png')
+image = Image.open('torra-1024.png')
 st.sidebar.image( image)
 
 tab1, = st.tabs(['Visão geral'])
