@@ -18,7 +18,7 @@ df = pd.read_excel('TuesdayStatus.xlsx')
 
 st.header('V1 | Painel de Controle - RCAs')
 
-st.sidebar.markdown('# Bem vindo (a)!')
+st.sidebar.markdown('# Bem vindo(a)!')
 st.sidebar.markdown("---")
 st.sidebar.markdown('## Painel estruturado com linguagem Python')
 st.sidebar.markdown("---")
