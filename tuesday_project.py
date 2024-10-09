@@ -33,5 +33,4 @@ with tab1:
     with st.container():
         st.title(' RCAs mapeados' )
 
-        st.table(df, 
-                 use_container_width=True)
+        st.table(df, use_container_width=True)
