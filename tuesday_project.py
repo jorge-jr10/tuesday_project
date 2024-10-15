@@ -11,7 +11,7 @@ st.set_page_config(
         initial_sidebar_state="expanded")
     
 #lendo o arquivo csv
-df = pd.read_excel('TuesdayStatus1.xlsx')
+df = pd.read_excel('TuesdayStatus2.xlsx')
     
 # Barra lateral no Streamlit
 st.header("V1 | Painel de Controle - RCA's")
