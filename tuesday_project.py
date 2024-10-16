@@ -22,6 +22,9 @@ if senha == senha_correta:
        
 # Coloque aqui o conteúdo do seu app
 st.write("Aqui está o conteúdo protegido do app.")
+
+       else:
+       st.error("Senha incorreta. Tente novamente.")
     
 #lendo o arquivo csv
 df = pd.read_excel('TuesdayStatus2 - 15.10.24.xlsx')
@@ -50,6 +53,3 @@ with tab1:
         with st.container():
             st.title("RCA's mapeados" )
             st.table(df)
-
-else:
-    st.error("Senha incorreta. Tente novamente.")
