@@ -20,8 +20,8 @@ senha = st.text_input("Digite a senha:", type="password")
 if senha == senha_correta:
     st.success("Senha correta! Bem-vindo ao app.")
        
-# Coloque aqui o conteúdo do seu app
-st.write("Aqui está o conteúdo protegido do app.")
+       # Coloque aqui o conteúdo do seu app
+       st.write("Aqui está o conteúdo protegido do app.")
 
        #lendo o arquivo csv
        df = pd.read_excel('TuesdayStatus2 - 15.10.24.xlsx')
@@ -52,4 +52,4 @@ st.write("Aqui está o conteúdo protegido do app.")
                    st.table(df)
 
 else:
-st.error("Senha incorreta. Tente novamente.")
+       st.error("Senha incorreta. Tente novamente.")
