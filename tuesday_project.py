@@ -25,7 +25,7 @@ st.sidebar.markdown('## Painel estruturado com linguagem Python')
            
 st.sidebar.markdown("---")
            
- st.sidebar.markdown("## Powered by Governance - TORRA")
+st.sidebar.markdown("## Powered by Governance - TORRA")
            
 #imagem TORRA
 image = Image.open('torra-1024.png')
