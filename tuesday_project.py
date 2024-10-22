@@ -36,5 +36,5 @@ tab1, = st.tabs(['Visão geral'])
            
 with tab1:
        with st.container():
-       st.title("RCA's mapeados" )
-       st.table(df)
+              st.title("RCA's mapeados" )
+              st.table(df)
