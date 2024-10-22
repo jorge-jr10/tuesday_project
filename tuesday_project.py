@@ -24,7 +24,7 @@ if senha == senha_correta:
        st.write("Aqui está o conteúdo protegido do app.")
 
        #lendo o arquivo csv
-       df = pd.read_excel('TuesdayStatus2 - 15.10.24.xlsx')
+       df = pd.read_excel('TuesdayStatus2 - 22.10.24.xlsx')
            
        # Barra lateral no Streamlit
        st.header("V1 | Painel de Controle - RCA's")
