@@ -38,5 +38,6 @@ with tab1:
        with st.container():
               st.title("RCA's mapeados" )
 
-              df['Data de Abertura'] = pd.to_datetime(df['Data de Abertura']).dt.date
+              df['Data de Abertura'] = pd.to_datetime(df['Data de Abertura']).dt.strftime('%d/%m/%Y')
+              
               st.table(df)
