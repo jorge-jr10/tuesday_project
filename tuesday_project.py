@@ -37,4 +37,6 @@ tab1, = st.tabs(['Visão geral'])
 with tab1:
        with st.container():
               st.title("RCA's mapeados" )
+
+              df['Data de Abertura'] = pd.to_datetime(df['Data de Abertura']).dt.date
               st.table(df)
