@@ -15,7 +15,7 @@ st.set_page_config(
 df = pd.read_excel('TuesdayStatus - 29.10.24.xlsx')
            
 # Barra lateral no Streamlit
-st.header("V1 | Painel de Controle - RCA's")
+st.header("V2 | Painel de Controle - RCA's")
            
 st.sidebar.markdown('# Bem vindo(a)!')
            
