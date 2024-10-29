@@ -12,7 +12,7 @@ st.set_page_config(
 
 
 #lendo o arquivo csv
-df = pd.read_excel('TuesdayStatus3 - 22.10.24.xlsx')
+df = pd.read_excel('TuesdayStatus - 29.10.24.xlsx')
            
 # Barra lateral no Streamlit
 st.header("V1 | Painel de Controle - RCA's")
